@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfect Pizza</title>
+    <link rel="stylesheet" href="simple-grid.css">
+</head>
+<body>
+
+<style>
+body {
+    background-color:#FDC5F5 ;
+}
+.container {
+    display: grid;
+    padding: 1em 1em;
+    grid-template-columns: repeat(2,1f);
+    grid-column-gap: 0px;
+    grid-row-gap: 1px;
+    grid-template-areas: initial;
+}
+.row img{
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    cursor: pointer;
+    transition: 0.5s;
+    border-radius: 2em;
+    padding: 1em;
+}
+.row h3 {
+    text-align: center;
+}
+.col-4 {
+    background-color: #B388EB ;
+    border: 0.5em;
+    text-align: center;
+    border-radius: 1em;
+    padding: 0px;
+    margin: 10px;
+    
+}
+.box {
+    border-radius: 10em;
+    padding: 5em;
+    size: 10px;
+    margin: 10em;
+    flex: 1;
+}
+.contact_us {
+    text-align: center;
+    background-color: #8093F1 ;
+    border-radius: 1em;
+    padding: 0px;
+}
+.footer {
+    text-align: center;
+}
+
+</style>
+    
+    <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <!-- This content will take up 3/12 (or 1/4) of the container -->
+            <h1> Perfect Pizza </h1>
+        </div>
+
+            <div class="row">
+            <div class="col-4">
+                <!-- This content will take up 3/12 (or 1/4) of the container -->
+
+                    <div class="pizza small_pizza" >
+                
+                        <h2>Small Pizza</h2>
+                       
+                    <img src="chicken-crammed-crust.png" width="150" class="center">
+                
+                
+                         <h3>R49.00</h3>
+                         <div>
+                       MEATY CRAMMED-CRUST® : The crust crammed with chicken cheese grillers & the pizza topped with tomato & herb pizza sauce, salami, macon, BBQ sauce & mozzarella.
+                    </div>
+                    </div>
+              </div>
+    
+              <div class="col-4">
+                <!-- This content will take up 3/12 (or 1/4) of the container -->
+                <div class="pizza medium_pizza" >
+
+                    <h2>Medium Pizza</h2>
+                    
+                <img src="chicken-crammed-crust.png" width="200" class="center">
+            
+            
+                     <h3>R89.00</h3>
+                     <div>
+                       MEATY CRAMMED-CRUST® : The crust crammed with chicken cheese grillers & the pizza topped with tomato & herb pizza sauce, salami, macon, BBQ sauce & mozzarella.
+                    </div>
+                </div>
+              </div>
+    
+    
+              <div class="col-4">
+                <!-- This content will take up 6/12 (or 1/2) of the container -->
+                <div class="pizza large_pizza" >
+
+                    <h2>Large Pizza</h2>
+                    
+                    <img src="chicken-crammed-crust.png" width="200" class="center" >
+            
+            
+                     <h3>R129.00</h3>
+                     <div>
+                       MEATY CRAMMED-CRUST® : The crust crammed with chicken cheese grillers & the pizza topped with tomato & herb pizza sauce, salami, macon, BBQ sauce & mozzarella.
+                    </div>
+                </div>
+            </div>
+              </div>
+    
+              <div class="row">
+                <div class="col-12">
+                  <!-- This content will take up 3/12 (or 1/4) of the container -->
+                  <div class="pizza contact_us" >
+                    <h2>Contact details</h2>
+                        <div>
+                        Contact us at: (021)-541-1000 
+                        </div>
+                    
+                        <div>
+                        twitter
+                        /fb
+                        /insta
+                        @perfectpizza
+                        </div>
+                    
+                      </div>
+                </div>
+                </div>
+<div class="row">
+    <div class="col-12">
+                <div class="footer" >
+                    <h4>Matjuta Pretty | Perfect Pizza | @Uj & Accuture CodeX | 2021 </h4>
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+      </div>
+
+</body>
+</html>
